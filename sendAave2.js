@@ -34,7 +34,7 @@ const lpAddressContact = new web3.eth.Contract(lpAddressABi, lpAddress);
 const assetName = 'DAI'; // for the log output lines
 const underlyingDecimals = 18; // Number of decimals defined in this ERC20 token's contract
 
-// Web3 transaction information, we'll use this for every transaction we'll send.
+// Web3 transaction information, we'll use this for every transaction we'll send
 const fromMyWallet = {
   from: myWalletAddress,
   //value: web3.utils.toWei("1", "ether").toString(),
