@@ -1,0 +1,20 @@
+{
+  "name": "aaveflash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fork": "ganache-cli --fork https://mainnet.infura.io/v3/1c4bdb163d8244758e14e95c4a231d91 --unlock '0x9759A6Ac90977b93B58547b4A71c78317f391A28'",
+    "deploy:fork": "truffle migrate --reset --network mainnetFork"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.3.0",
+    "@truffle/hdwallet-provider": "^1.2.0"
+  }
+}
