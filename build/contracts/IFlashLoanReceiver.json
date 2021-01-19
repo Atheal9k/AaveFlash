@@ -79,15 +79,15 @@
     "absolutePath": "/D/Users/victo/Desktop/Crypto Programming/DeFi/AaveFlash/contracts/flashLoanContracts/IFlashLoanReceiver.sol",
     "exportedSymbols": {
       "IFlashLoanReceiver": [
-        1113
+        1111
       ]
     },
-    "id": 1114,
+    "id": 1112,
     "license": "agpl-3.0",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1079,
+        "id": 1077,
         "literals": [
           "solidity",
           "0.6",
@@ -99,16 +99,16 @@
       {
         "absolutePath": "/D/Users/victo/Desktop/Crypto Programming/DeFi/AaveFlash/contracts/flashLoanContracts/ILendingPoolAddressesProvider.sol",
         "file": "./ILendingPoolAddressesProvider.sol",
-        "id": 1081,
+        "id": 1079,
         "nodeType": "ImportDirective",
-        "scope": 1114,
-        "sourceUnit": 1640,
+        "scope": 1112,
+        "sourceUnit": 1638,
         "src": "65:82:7",
         "symbolAliases": [
           {
             "foreign": {
               "argumentTypes": null,
-              "id": 1080,
+              "id": 1078,
               "name": "ILendingPoolAddressesProvider",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
@@ -127,16 +127,16 @@
       {
         "absolutePath": "/D/Users/victo/Desktop/Crypto Programming/DeFi/AaveFlash/contracts/flashLoanContracts/ILendingPool.sol",
         "file": "./ILendingPool.sol",
-        "id": 1083,
+        "id": 1081,
         "nodeType": "ImportDirective",
-        "scope": 1114,
-        "sourceUnit": 1489,
+        "scope": 1112,
+        "sourceUnit": 1487,
         "src": "149:48:7",
         "symbolAliases": [
           {
             "foreign": {
               "argumentTypes": null,
-              "id": 1082,
+              "id": 1080,
               "name": "ILendingPool",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
@@ -158,15 +158,15 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {
-          "id": 1084,
+          "id": 1082,
           "nodeType": "StructuredDocumentation",
           "src": "201:220:7",
           "text": " @title IFlashLoanReceiver interface\n @notice Interface for the Aave fee IFlashLoanReceiver.\n @author Aave\n @dev implement this interface to develop a flashloan-compatible flashLoanReceiver contract*"
         },
         "fullyImplemented": false,
-        "id": 1113,
+        "id": 1111,
         "linearizedBaseContracts": [
-          1113
+          1111
         ],
         "name": "IFlashLoanReceiver",
         "nodeType": "ContractDefinition",
@@ -175,7 +175,7 @@
             "body": null,
             "documentation": null,
             "functionSelector": "920f5c84",
-            "id": 1102,
+            "id": 1100,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -183,17 +183,17 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 1098,
+              "id": 1096,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1087,
+                  "id": 1085,
                   "mutability": "mutable",
                   "name": "assets",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 1102,
+                  "scope": 1100,
                   "src": "489:25:7",
                   "stateVariable": false,
                   "storageLocation": "calldata",
@@ -203,7 +203,7 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 1085,
+                      "id": 1083,
                       "name": "address",
                       "nodeType": "ElementaryTypeName",
                       "src": "489:7:7",
@@ -213,7 +213,7 @@
                         "typeString": "address"
                       }
                     },
-                    "id": 1086,
+                    "id": 1084,
                     "length": null,
                     "nodeType": "ArrayTypeName",
                     "src": "489:9:7",
@@ -227,12 +227,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 1090,
+                  "id": 1088,
                   "mutability": "mutable",
                   "name": "amounts",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 1102,
+                  "scope": 1100,
                   "src": "521:26:7",
                   "stateVariable": false,
                   "storageLocation": "calldata",
@@ -242,7 +242,7 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 1088,
+                      "id": 1086,
                       "name": "uint256",
                       "nodeType": "ElementaryTypeName",
                       "src": "521:7:7",
@@ -251,7 +251,7 @@
                         "typeString": "uint256"
                       }
                     },
-                    "id": 1089,
+                    "id": 1087,
                     "length": null,
                     "nodeType": "ArrayTypeName",
                     "src": "521:9:7",
@@ -265,12 +265,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 1093,
+                  "id": 1091,
                   "mutability": "mutable",
                   "name": "premiums",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 1102,
+                  "scope": 1100,
                   "src": "554:27:7",
                   "stateVariable": false,
                   "storageLocation": "calldata",
@@ -280,7 +280,7 @@
                   },
                   "typeName": {
                     "baseType": {
-                      "id": 1091,
+                      "id": 1089,
                       "name": "uint256",
                       "nodeType": "ElementaryTypeName",
                       "src": "554:7:7",
@@ -289,7 +289,7 @@
                         "typeString": "uint256"
                       }
                     },
-                    "id": 1092,
+                    "id": 1090,
                     "length": null,
                     "nodeType": "ArrayTypeName",
                     "src": "554:9:7",
@@ -303,12 +303,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 1095,
+                  "id": 1093,
                   "mutability": "mutable",
                   "name": "initiator",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 1102,
+                  "scope": 1100,
                   "src": "588:17:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -317,7 +317,7 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 1094,
+                    "id": 1092,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
                     "src": "588:7:7",
@@ -332,12 +332,12 @@
                 },
                 {
                   "constant": false,
-                  "id": 1097,
+                  "id": 1095,
                   "mutability": "mutable",
                   "name": "params",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 1102,
+                  "scope": 1100,
                   "src": "612:21:7",
                   "stateVariable": false,
                   "storageLocation": "calldata",
@@ -346,7 +346,7 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 1096,
+                    "id": 1094,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
                     "src": "612:5:7",
@@ -362,17 +362,17 @@
               "src": "482:156:7"
             },
             "returnParameters": {
-              "id": 1101,
+              "id": 1099,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1100,
+                  "id": 1098,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 1102,
+                  "scope": 1100,
                   "src": "657:4:7",
                   "stateVariable": false,
                   "storageLocation": "default",
@@ -381,7 +381,7 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 1099,
+                    "id": 1097,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
                     "src": "657:4:7",
@@ -396,7 +396,7 @@
               ],
               "src": "656:6:7"
             },
-            "scope": 1113,
+            "scope": 1111,
             "src": "457:206:7",
             "stateMutability": "nonpayable",
             "virtual": false,
@@ -406,7 +406,7 @@
             "body": null,
             "documentation": null,
             "functionSelector": "0542975c",
-            "id": 1107,
+            "id": 1105,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -414,39 +414,39 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 1103,
+              "id": 1101,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "696:2:7"
             },
             "returnParameters": {
-              "id": 1106,
+              "id": 1104,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1105,
+                  "id": 1103,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 1107,
+                  "scope": 1105,
                   "src": "722:29:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ILendingPoolAddressesProvider_$1639",
+                    "typeIdentifier": "t_contract$_ILendingPoolAddressesProvider_$1637",
                     "typeString": "contract ILendingPoolAddressesProvider"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 1104,
+                    "id": 1102,
                     "name": "ILendingPoolAddressesProvider",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 1639,
+                    "referencedDeclaration": 1637,
                     "src": "722:29:7",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ILendingPoolAddressesProvider_$1639",
+                      "typeIdentifier": "t_contract$_ILendingPoolAddressesProvider_$1637",
                       "typeString": "contract ILendingPoolAddressesProvider"
                     }
                   },
@@ -456,7 +456,7 @@
               ],
               "src": "721:31:7"
             },
-            "scope": 1113,
+            "scope": 1111,
             "src": "669:84:7",
             "stateMutability": "view",
             "virtual": false,
@@ -466,7 +466,7 @@
             "body": null,
             "documentation": null,
             "functionSelector": "b4dcfc77",
-            "id": 1112,
+            "id": 1110,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
@@ -474,39 +474,39 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 1108,
+              "id": 1106,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "780:2:7"
             },
             "returnParameters": {
-              "id": 1111,
+              "id": 1109,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 1110,
+                  "id": 1108,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 1112,
+                  "scope": 1110,
                   "src": "806:12:7",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_ILendingPool_$1488",
+                    "typeIdentifier": "t_contract$_ILendingPool_$1486",
                     "typeString": "contract ILendingPool"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 1109,
+                    "id": 1107,
                     "name": "ILendingPool",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 1488,
+                    "referencedDeclaration": 1486,
                     "src": "806:12:7",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_ILendingPool_$1488",
+                      "typeIdentifier": "t_contract$_ILendingPool_$1486",
                       "typeString": "contract ILendingPool"
                     }
                   },
@@ -516,14 +516,14 @@
               ],
               "src": "805:14:7"
             },
-            "scope": 1113,
+            "scope": 1111,
             "src": "759:61:7",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 1114,
+        "scope": 1112,
         "src": "423:400:7"
       }
     ],
@@ -534,7 +534,7 @@
       "absolutePath": "/D/Users/victo/Desktop/Crypto Programming/DeFi/AaveFlash/contracts/flashLoanContracts/IFlashLoanReceiver.sol",
       "exportedSymbols": {
         "IFlashLoanReceiver": [
-          1113
+          1111
         ]
       },
       "license": "agpl-3.0"
@@ -548,16 +548,16 @@
             ".12"
           ]
         },
-        "id": 1079,
+        "id": 1077,
         "name": "PragmaDirective",
         "src": "38:23:7"
       },
       {
         "attributes": {
-          "SourceUnit": 1640,
+          "SourceUnit": 1638,
           "absolutePath": "/D/Users/victo/Desktop/Crypto Programming/DeFi/AaveFlash/contracts/flashLoanContracts/ILendingPoolAddressesProvider.sol",
           "file": "./ILendingPoolAddressesProvider.sol",
-          "scope": 1114,
+          "scope": 1112,
           "symbolAliases": [
             {
               "foreign": {
@@ -570,7 +570,7 @@
                   "type": null,
                   "value": "ILendingPoolAddressesProvider"
                 },
-                "id": 1080,
+                "id": 1078,
                 "name": "Identifier",
                 "src": "73:29:7"
               },
@@ -579,16 +579,16 @@
           ],
           "unitAlias": ""
         },
-        "id": 1081,
+        "id": 1079,
         "name": "ImportDirective",
         "src": "65:82:7"
       },
       {
         "attributes": {
-          "SourceUnit": 1489,
+          "SourceUnit": 1487,
           "absolutePath": "/D/Users/victo/Desktop/Crypto Programming/DeFi/AaveFlash/contracts/flashLoanContracts/ILendingPool.sol",
           "file": "./ILendingPool.sol",
-          "scope": 1114,
+          "scope": 1112,
           "symbolAliases": [
             {
               "foreign": {
@@ -601,7 +601,7 @@
                   "type": null,
                   "value": "ILendingPool"
                 },
-                "id": 1082,
+                "id": 1080,
                 "name": "Identifier",
                 "src": "157:12:7"
               },
@@ -610,7 +610,7 @@
           ],
           "unitAlias": ""
         },
-        "id": 1083,
+        "id": 1081,
         "name": "ImportDirective",
         "src": "149:48:7"
       },
@@ -626,17 +626,17 @@
           "contractKind": "interface",
           "fullyImplemented": false,
           "linearizedBaseContracts": [
-            1113
+            1111
           ],
           "name": "IFlashLoanReceiver",
-          "scope": 1114
+          "scope": 1112
         },
         "children": [
           {
             "attributes": {
               "text": " @title IFlashLoanReceiver interface\n @notice Interface for the Aave fee IFlashLoanReceiver.\n @author Aave\n @dev implement this interface to develop a flashloan-compatible flashLoanReceiver contract*"
             },
-            "id": 1084,
+            "id": 1082,
             "name": "StructuredDocumentation",
             "src": "201:220:7"
           },
@@ -653,7 +653,7 @@
               ],
               "name": "executeOperation",
               "overrides": null,
-              "scope": 1113,
+              "scope": 1111,
               "stateMutability": "nonpayable",
               "virtual": false,
               "visibility": "external"
@@ -667,7 +667,7 @@
                       "mutability": "mutable",
                       "name": "assets",
                       "overrides": null,
-                      "scope": 1102,
+                      "scope": 1100,
                       "stateVariable": false,
                       "storageLocation": "calldata",
                       "type": "address[]",
@@ -687,17 +687,17 @@
                               "stateMutability": "nonpayable",
                               "type": "address"
                             },
-                            "id": 1085,
+                            "id": 1083,
                             "name": "ElementaryTypeName",
                             "src": "489:7:7"
                           }
                         ],
-                        "id": 1086,
+                        "id": 1084,
                         "name": "ArrayTypeName",
                         "src": "489:9:7"
                       }
                     ],
-                    "id": 1087,
+                    "id": 1085,
                     "name": "VariableDeclaration",
                     "src": "489:25:7"
                   },
@@ -707,7 +707,7 @@
                       "mutability": "mutable",
                       "name": "amounts",
                       "overrides": null,
-                      "scope": 1102,
+                      "scope": 1100,
                       "stateVariable": false,
                       "storageLocation": "calldata",
                       "type": "uint256[]",
@@ -726,17 +726,17 @@
                               "name": "uint256",
                               "type": "uint256"
                             },
-                            "id": 1088,
+                            "id": 1086,
                             "name": "ElementaryTypeName",
                             "src": "521:7:7"
                           }
                         ],
-                        "id": 1089,
+                        "id": 1087,
                         "name": "ArrayTypeName",
                         "src": "521:9:7"
                       }
                     ],
-                    "id": 1090,
+                    "id": 1088,
                     "name": "VariableDeclaration",
                     "src": "521:26:7"
                   },
@@ -746,7 +746,7 @@
                       "mutability": "mutable",
                       "name": "premiums",
                       "overrides": null,
-                      "scope": 1102,
+                      "scope": 1100,
                       "stateVariable": false,
                       "storageLocation": "calldata",
                       "type": "uint256[]",
@@ -765,17 +765,17 @@
                               "name": "uint256",
                               "type": "uint256"
                             },
-                            "id": 1091,
+                            "id": 1089,
                             "name": "ElementaryTypeName",
                             "src": "554:7:7"
                           }
                         ],
-                        "id": 1092,
+                        "id": 1090,
                         "name": "ArrayTypeName",
                         "src": "554:9:7"
                       }
                     ],
-                    "id": 1093,
+                    "id": 1091,
                     "name": "VariableDeclaration",
                     "src": "554:27:7"
                   },
@@ -785,7 +785,7 @@
                       "mutability": "mutable",
                       "name": "initiator",
                       "overrides": null,
-                      "scope": 1102,
+                      "scope": 1100,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "address",
@@ -799,12 +799,12 @@
                           "stateMutability": "nonpayable",
                           "type": "address"
                         },
-                        "id": 1094,
+                        "id": 1092,
                         "name": "ElementaryTypeName",
                         "src": "588:7:7"
                       }
                     ],
-                    "id": 1095,
+                    "id": 1093,
                     "name": "VariableDeclaration",
                     "src": "588:17:7"
                   },
@@ -814,7 +814,7 @@
                       "mutability": "mutable",
                       "name": "params",
                       "overrides": null,
-                      "scope": 1102,
+                      "scope": 1100,
                       "stateVariable": false,
                       "storageLocation": "calldata",
                       "type": "bytes",
@@ -827,17 +827,17 @@
                           "name": "bytes",
                           "type": "bytes"
                         },
-                        "id": 1096,
+                        "id": 1094,
                         "name": "ElementaryTypeName",
                         "src": "612:5:7"
                       }
                     ],
-                    "id": 1097,
+                    "id": 1095,
                     "name": "VariableDeclaration",
                     "src": "612:21:7"
                   }
                 ],
-                "id": 1098,
+                "id": 1096,
                 "name": "ParameterList",
                 "src": "482:156:7"
               },
@@ -849,7 +849,7 @@
                       "mutability": "mutable",
                       "name": "",
                       "overrides": null,
-                      "scope": 1102,
+                      "scope": 1100,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bool",
@@ -862,22 +862,22 @@
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 1099,
+                        "id": 1097,
                         "name": "ElementaryTypeName",
                         "src": "657:4:7"
                       }
                     ],
-                    "id": 1100,
+                    "id": 1098,
                     "name": "VariableDeclaration",
                     "src": "657:4:7"
                   }
                 ],
-                "id": 1101,
+                "id": 1099,
                 "name": "ParameterList",
                 "src": "656:6:7"
               }
             ],
-            "id": 1102,
+            "id": 1100,
             "name": "FunctionDefinition",
             "src": "457:206:7"
           },
@@ -894,7 +894,7 @@
               ],
               "name": "ADDRESSES_PROVIDER",
               "overrides": null,
-              "scope": 1113,
+              "scope": 1111,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -907,7 +907,7 @@
                   ]
                 },
                 "children": [],
-                "id": 1103,
+                "id": 1101,
                 "name": "ParameterList",
                 "src": "696:2:7"
               },
@@ -919,7 +919,7 @@
                       "mutability": "mutable",
                       "name": "",
                       "overrides": null,
-                      "scope": 1107,
+                      "scope": 1105,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "contract ILendingPoolAddressesProvider",
@@ -931,25 +931,25 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "ILendingPoolAddressesProvider",
-                          "referencedDeclaration": 1639,
+                          "referencedDeclaration": 1637,
                           "type": "contract ILendingPoolAddressesProvider"
                         },
-                        "id": 1104,
+                        "id": 1102,
                         "name": "UserDefinedTypeName",
                         "src": "722:29:7"
                       }
                     ],
-                    "id": 1105,
+                    "id": 1103,
                     "name": "VariableDeclaration",
                     "src": "722:29:7"
                   }
                 ],
-                "id": 1106,
+                "id": 1104,
                 "name": "ParameterList",
                 "src": "721:31:7"
               }
             ],
-            "id": 1107,
+            "id": 1105,
             "name": "FunctionDefinition",
             "src": "669:84:7"
           },
@@ -966,7 +966,7 @@
               ],
               "name": "LENDING_POOL",
               "overrides": null,
-              "scope": 1113,
+              "scope": 1111,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -979,7 +979,7 @@
                   ]
                 },
                 "children": [],
-                "id": 1108,
+                "id": 1106,
                 "name": "ParameterList",
                 "src": "780:2:7"
               },
@@ -991,7 +991,7 @@
                       "mutability": "mutable",
                       "name": "",
                       "overrides": null,
-                      "scope": 1112,
+                      "scope": 1110,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "contract ILendingPool",
@@ -1003,35 +1003,35 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "ILendingPool",
-                          "referencedDeclaration": 1488,
+                          "referencedDeclaration": 1486,
                           "type": "contract ILendingPool"
                         },
-                        "id": 1109,
+                        "id": 1107,
                         "name": "UserDefinedTypeName",
                         "src": "806:12:7"
                       }
                     ],
-                    "id": 1110,
+                    "id": 1108,
                     "name": "VariableDeclaration",
                     "src": "806:12:7"
                   }
                 ],
-                "id": 1111,
+                "id": 1109,
                 "name": "ParameterList",
                 "src": "805:14:7"
               }
             ],
-            "id": 1112,
+            "id": 1110,
             "name": "FunctionDefinition",
             "src": "759:61:7"
           }
         ],
-        "id": 1113,
+        "id": 1111,
         "name": "ContractDefinition",
         "src": "423:400:7"
       }
     ],
-    "id": 1114,
+    "id": 1112,
     "name": "SourceUnit",
     "src": "38:787:7"
   },
@@ -1041,7 +1041,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.3",
-  "updatedAt": "2021-01-12T02:18:27.447Z",
+  "updatedAt": "2021-01-19T05:59:55.853Z",
   "devdoc": {
     "author": "Aave",
     "details": "implement this interface to develop a flashloan-compatible flashLoanReceiver contract*",
