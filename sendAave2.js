@@ -711,7 +711,7 @@ const fromMyWallet = {
   gasPrice: web3.utils.toHex(20000000000), // use ethgasstation.info (mainnet only)
 }
 
-const kek = async () => {
+const main = async () => {
   // console.log(`Now transferring ${assetName} from my wallet to MyContract...`);
 
   let transferResult = await underlying.methods
@@ -763,6 +763,6 @@ const kek = async () => {
   //web3.eth.getBalance(myContractAddress).then(console.log)
 }
 
-kek().catch((err) => {
+main().catch((err) => {
   console.error(err)
 })
